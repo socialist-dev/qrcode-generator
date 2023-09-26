@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">  
+    <title>QR Code Generator Custom UI | CanhLong.NWCVN </title>
+    <link rel="stylesheet" href="styles-tp31.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div>
+      <!-- Background Video -->
+      <div class="video">
+        <video autoplay loop muted id="background-video">
+          <source src="../qrcode-generator/src/1.mp4" type="video/mp4">
+        </video>
+        <!-- QRCode Generator -->
+        <div class="card">
+          <div class="wrapper">
+            <header>
+              <h1>QR Code Generator</h1>
+              <p>Paste a url or enter text to create QR code</p>
+            </header>
+            <div class="form">
+              <input type="text" spellcheck="false" placeholder="Enter text or url">
+              <button>Generate QR Code</button>
+            </div>
+            <div class="qr-code">
+              <img src="" alt="qr-code">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+
+  </body>  
+</html>
